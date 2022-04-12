@@ -1,0 +1,37 @@
+.app{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer ";
+    grid-template-columns: 2fr 4fr 1fr;
+    grid-template-rows: 2fr 6fr 1fr;
+    grid-gap: 15px;
+    border: solid 3px black;
+}
+.header{
+    grid-area: header;
+    color: white;
+    background-color: rgb(194, 52, 182)
+
+}
+
+.aside{
+    grid-area: aside;
+    color: white;
+
+    background-color: rgb(194, 52, 182)
+}
+.main{
+    grid-area: main;
+    color: white;
+
+    background-color: rgb(194, 52, 182)
+}
+.footer{
+    grid-area: footer;
+    color: white;
+    text-align: justify ;
+
+    background-color: rgb(194, 52, 182)
+}
